@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF7E24F18F389D900340E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E24E18F389D900340E6F /* Foundation.framework */; };
+		EFF7E25118F389D900340E6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E25018F389D900340E6F /* CoreGraphics.framework */; };
+		EFF7E25318F389D900340E6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E25218F389D900340E6F /* UIKit.framework */; };
+		EFF7E25918F389D900340E6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFF7E25718F389D900340E6F /* InfoPlist.strings */; };
+		EFF7E25B18F389D900340E6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E25A18F389D900340E6F /* main.m */; };
+		EFF7E25F18F389D900340E6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E25E18F389D900340E6F /* AppDelegate.m */; };
+		EFF7E26118F389D900340E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF7E26018F389D900340E6F /* Images.xcassets */; };
+		EFF7E26818F389D900340E6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E26718F389D900340E6F /* XCTest.framework */; };
+		EFF7E26918F389D900340E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E24E18F389D900340E6F /* Foundation.framework */; };
+		EFF7E26A18F389D900340E6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7E25218F389D900340E6F /* UIKit.framework */; };
+		EFF7E27218F389D900340E6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFF7E27018F389D900340E6F /* InfoPlist.strings */; };
+		EFF7E27418F389D900340E6F /* UIView_AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E27318F389D900340E6F /* UIView_AnimationsTests.m */; };
+		EFF7E29D18F38A8F00340E6F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E27E18F38A8F00340E6F /* ListViewController.m */; };
+		EFF7E29E18F38A8F00340E6F /* NoAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28018F38A8F00340E6F /* NoAnimationViewController.m */; };
+		EFF7E29F18F38A8F00340E6F /* BlockToPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28218F38A8F00340E6F /* BlockToPointViewController.m */; };
+		EFF7E2A018F38A8F00340E6F /* BlockToTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28418F38A8F00340E6F /* BlockToTouchViewController.m */; };
+		EFF7E2A118F38A8F00340E6F /* PixelForPixelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28618F38A8F00340E6F /* PixelForPixelViewController.m */; };
+		EFF7E2A218F38A8F00340E6F /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28818F38A8F00340E6F /* CGAffineTransformViewController.m */; };
+		EFF7E2A318F38A8F00340E6F /* EasyTransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28A18F38A8F00340E6F /* EasyTransitionsViewController.m */; };
+		EFF7E2A418F38A8F00340E6F /* AllowUserInteractionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28C18F38A8F00340E6F /* AllowUserInteractionsViewController.m */; };
+		EFF7E2A518F38A8F00340E6F /* BeginFromCurrentStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E28E18F38A8F00340E6F /* BeginFromCurrentStateViewController.m */; };
+		EFF7E2A618F38A8F00340E6F /* CurvesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29018F38A8F00340E6F /* CurvesViewController.m */; };
+		EFF7E2A718F38A8F00340E6F /* CATransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29218F38A8F00340E6F /* CATransform3DViewController.m */; };
+		EFF7E2A818F38A8F00340E6F /* KeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29418F38A8F00340E6F /* KeyframeViewController.m */; };
+		EFF7E2A918F38A8F00340E6F /* SpringsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29618F38A8F00340E6F /* SpringsViewController.m */; };
+		EFF7E2AA18F38A8F00340E6F /* TonsOfAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29818F38A8F00340E6F /* TonsOfAnimationsViewController.m */; };
+		EFF7E2AB18F38A8F00340E6F /* CoreAnimationPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29A18F38A8F00340E6F /* CoreAnimationPathViewController.m */; };
+		EFF7E2AC18F38A8F00340E6F /* ExplodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E29C18F38A8F00340E6F /* ExplodingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF7E26B18F389D900340E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF7E24318F389D900340E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF7E24A18F389D900340E6F;
+			remoteInfo = "UIView Animations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF7E24B18F389D900340E6F /* UIView Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF7E24E18F389D900340E6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFF7E25018F389D900340E6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFF7E25218F389D900340E6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFF7E25618F389D900340E6F /* UIView Animations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIView Animations-Info.plist"; sourceTree = "<group>"; };
+		EFF7E25818F389D900340E6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFF7E25A18F389D900340E6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFF7E25C18F389D900340E6F /* UIView Animations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView Animations-Prefix.pch"; sourceTree = "<group>"; };
+		EFF7E25D18F389D900340E6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFF7E25E18F389D900340E6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFF7E26018F389D900340E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFF7E26618F389D900340E6F /* UIView AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView AnimationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF7E26718F389D900340E6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFF7E26F18F389D900340E6F /* UIView AnimationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIView AnimationsTests-Info.plist"; sourceTree = "<group>"; };
+		EFF7E27118F389D900340E6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFF7E27318F389D900340E6F /* UIView_AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_AnimationsTests.m; sourceTree = "<group>"; };
+		EFF7E27D18F38A8F00340E6F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		EFF7E27E18F38A8F00340E6F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		EFF7E27F18F38A8F00340E6F /* NoAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoAnimationViewController.h; sourceTree = "<group>"; };
+		EFF7E28018F38A8F00340E6F /* NoAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoAnimationViewController.m; sourceTree = "<group>"; };
+		EFF7E28118F38A8F00340E6F /* BlockToPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockToPointViewController.h; sourceTree = "<group>"; };
+		EFF7E28218F38A8F00340E6F /* BlockToPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockToPointViewController.m; sourceTree = "<group>"; };
+		EFF7E28318F38A8F00340E6F /* BlockToTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockToTouchViewController.h; sourceTree = "<group>"; };
+		EFF7E28418F38A8F00340E6F /* BlockToTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockToTouchViewController.m; sourceTree = "<group>"; };
+		EFF7E28518F38A8F00340E6F /* PixelForPixelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelForPixelViewController.h; sourceTree = "<group>"; };
+		EFF7E28618F38A8F00340E6F /* PixelForPixelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelForPixelViewController.m; sourceTree = "<group>"; };
+		EFF7E28718F38A8F00340E6F /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
+		EFF7E28818F38A8F00340E6F /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
+		EFF7E28918F38A8F00340E6F /* EasyTransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyTransitionsViewController.h; sourceTree = "<group>"; };
+		EFF7E28A18F38A8F00340E6F /* EasyTransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyTransitionsViewController.m; sourceTree = "<group>"; };
+		EFF7E28B18F38A8F00340E6F /* AllowUserInteractionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllowUserInteractionsViewController.h; sourceTree = "<group>"; };
+		EFF7E28C18F38A8F00340E6F /* AllowUserInteractionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllowUserInteractionsViewController.m; sourceTree = "<group>"; };
+		EFF7E28D18F38A8F00340E6F /* BeginFromCurrentStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginFromCurrentStateViewController.h; sourceTree = "<group>"; };
+		EFF7E28E18F38A8F00340E6F /* BeginFromCurrentStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginFromCurrentStateViewController.m; sourceTree = "<group>"; };
+		EFF7E28F18F38A8F00340E6F /* CurvesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvesViewController.h; sourceTree = "<group>"; };
+		EFF7E29018F38A8F00340E6F /* CurvesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvesViewController.m; sourceTree = "<group>"; };
+		EFF7E29118F38A8F00340E6F /* CATransform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransform3DViewController.h; sourceTree = "<group>"; };
+		EFF7E29218F38A8F00340E6F /* CATransform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransform3DViewController.m; sourceTree = "<group>"; };
+		EFF7E29318F38A8F00340E6F /* KeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeViewController.h; sourceTree = "<group>"; };
+		EFF7E29418F38A8F00340E6F /* KeyframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeViewController.m; sourceTree = "<group>"; };
+		EFF7E29518F38A8F00340E6F /* SpringsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringsViewController.h; sourceTree = "<group>"; };
+		EFF7E29618F38A8F00340E6F /* SpringsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringsViewController.m; sourceTree = "<group>"; };
+		EFF7E29718F38A8F00340E6F /* TonsOfAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonsOfAnimationsViewController.h; sourceTree = "<group>"; };
+		EFF7E29818F38A8F00340E6F /* TonsOfAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TonsOfAnimationsViewController.m; sourceTree = "<group>"; };
+		EFF7E29918F38A8F00340E6F /* CoreAnimationPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationPathViewController.h; sourceTree = "<group>"; };
+		EFF7E29A18F38A8F00340E6F /* CoreAnimationPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationPathViewController.m; sourceTree = "<group>"; };
+		EFF7E29B18F38A8F00340E6F /* ExplodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplodingViewController.h; sourceTree = "<group>"; };
+		EFF7E29C18F38A8F00340E6F /* ExplodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplodingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF7E24818F389D900340E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E25118F389D900340E6F /* CoreGraphics.framework in Frameworks */,
+				EFF7E25318F389D900340E6F /* UIKit.framework in Frameworks */,
+				EFF7E24F18F389D900340E6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7E26318F389D900340E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E26818F389D900340E6F /* XCTest.framework in Frameworks */,
+				EFF7E26A18F389D900340E6F /* UIKit.framework in Frameworks */,
+				EFF7E26918F389D900340E6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF7E24218F389D900340E6F = {
+			isa = PBXGroup;
+			children = (
+				EFF7E25418F389D900340E6F /* UIView Animations */,
+				EFF7E26D18F389D900340E6F /* UIView AnimationsTests */,
+				EFF7E24D18F389D900340E6F /* Frameworks */,
+				EFF7E24C18F389D900340E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF7E24C18F389D900340E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E24B18F389D900340E6F /* UIView Animations.app */,
+				EFF7E26618F389D900340E6F /* UIView AnimationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF7E24D18F389D900340E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E24E18F389D900340E6F /* Foundation.framework */,
+				EFF7E25018F389D900340E6F /* CoreGraphics.framework */,
+				EFF7E25218F389D900340E6F /* UIKit.framework */,
+				EFF7E26718F389D900340E6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF7E25418F389D900340E6F /* UIView Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E25D18F389D900340E6F /* AppDelegate.h */,
+				EFF7E25E18F389D900340E6F /* AppDelegate.m */,
+				EFF7E27D18F38A8F00340E6F /* ListViewController.h */,
+				EFF7E27E18F38A8F00340E6F /* ListViewController.m */,
+				EFF7E27F18F38A8F00340E6F /* NoAnimationViewController.h */,
+				EFF7E28018F38A8F00340E6F /* NoAnimationViewController.m */,
+				EFF7E28118F38A8F00340E6F /* BlockToPointViewController.h */,
+				EFF7E28218F38A8F00340E6F /* BlockToPointViewController.m */,
+				EFF7E28318F38A8F00340E6F /* BlockToTouchViewController.h */,
+				EFF7E28418F38A8F00340E6F /* BlockToTouchViewController.m */,
+				EFF7E28518F38A8F00340E6F /* PixelForPixelViewController.h */,
+				EFF7E28618F38A8F00340E6F /* PixelForPixelViewController.m */,
+				EFF7E28718F38A8F00340E6F /* CGAffineTransformViewController.h */,
+				EFF7E28818F38A8F00340E6F /* CGAffineTransformViewController.m */,
+				EFF7E28918F38A8F00340E6F /* EasyTransitionsViewController.h */,
+				EFF7E28A18F38A8F00340E6F /* EasyTransitionsViewController.m */,
+				EFF7E28B18F38A8F00340E6F /* AllowUserInteractionsViewController.h */,
+				EFF7E28C18F38A8F00340E6F /* AllowUserInteractionsViewController.m */,
+				EFF7E28D18F38A8F00340E6F /* BeginFromCurrentStateViewController.h */,
+				EFF7E28E18F38A8F00340E6F /* BeginFromCurrentStateViewController.m */,
+				EFF7E28F18F38A8F00340E6F /* CurvesViewController.h */,
+				EFF7E29018F38A8F00340E6F /* CurvesViewController.m */,
+				EFF7E29118F38A8F00340E6F /* CATransform3DViewController.h */,
+				EFF7E29218F38A8F00340E6F /* CATransform3DViewController.m */,
+				EFF7E29318F38A8F00340E6F /* KeyframeViewController.h */,
+				EFF7E29418F38A8F00340E6F /* KeyframeViewController.m */,
+				EFF7E29518F38A8F00340E6F /* SpringsViewController.h */,
+				EFF7E29618F38A8F00340E6F /* SpringsViewController.m */,
+				EFF7E29718F38A8F00340E6F /* TonsOfAnimationsViewController.h */,
+				EFF7E29818F38A8F00340E6F /* TonsOfAnimationsViewController.m */,
+				EFF7E29918F38A8F00340E6F /* CoreAnimationPathViewController.h */,
+				EFF7E29A18F38A8F00340E6F /* CoreAnimationPathViewController.m */,
+				EFF7E29B18F38A8F00340E6F /* ExplodingViewController.h */,
+				EFF7E29C18F38A8F00340E6F /* ExplodingViewController.m */,
+				EFF7E26018F389D900340E6F /* Images.xcassets */,
+				EFF7E25518F389D900340E6F /* Supporting Files */,
+			);
+			path = "UIView Animations";
+			sourceTree = "<group>";
+		};
+		EFF7E25518F389D900340E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E25618F389D900340E6F /* UIView Animations-Info.plist */,
+				EFF7E25718F389D900340E6F /* InfoPlist.strings */,
+				EFF7E25A18F389D900340E6F /* main.m */,
+				EFF7E25C18F389D900340E6F /* UIView Animations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF7E26D18F389D900340E6F /* UIView AnimationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E27318F389D900340E6F /* UIView_AnimationsTests.m */,
+				EFF7E26E18F389D900340E6F /* Supporting Files */,
+			);
+			path = "UIView AnimationsTests";
+			sourceTree = "<group>";
+		};
+		EFF7E26E18F389D900340E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7E26F18F389D900340E6F /* UIView AnimationsTests-Info.plist */,
+				EFF7E27018F389D900340E6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF7E24A18F389D900340E6F /* UIView Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF7E27718F389D900340E6F /* Build configuration list for PBXNativeTarget "UIView Animations" */;
+			buildPhases = (
+				EFF7E24718F389D900340E6F /* Sources */,
+				EFF7E24818F389D900340E6F /* Frameworks */,
+				EFF7E24918F389D900340E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView Animations";
+			productName = "UIView Animations";
+			productReference = EFF7E24B18F389D900340E6F /* UIView Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF7E26518F389D900340E6F /* UIView AnimationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF7E27A18F389D900340E6F /* Build configuration list for PBXNativeTarget "UIView AnimationsTests" */;
+			buildPhases = (
+				EFF7E26218F389D900340E6F /* Sources */,
+				EFF7E26318F389D900340E6F /* Frameworks */,
+				EFF7E26418F389D900340E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF7E26C18F389D900340E6F /* PBXTargetDependency */,
+			);
+			name = "UIView AnimationsTests";
+			productName = "UIView AnimationsTests";
+			productReference = EFF7E26618F389D900340E6F /* UIView AnimationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF7E24318F389D900340E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Frozen Fire Studios, Inc";
+				TargetAttributes = {
+					EFF7E26518F389D900340E6F = {
+						TestTargetID = EFF7E24A18F389D900340E6F;
+					};
+				};
+			};
+			buildConfigurationList = EFF7E24618F389D900340E6F /* Build configuration list for PBXProject "UIView Animations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFF7E24218F389D900340E6F;
+			productRefGroup = EFF7E24C18F389D900340E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF7E24A18F389D900340E6F /* UIView Animations */,
+				EFF7E26518F389D900340E6F /* UIView AnimationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF7E24918F389D900340E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E25918F389D900340E6F /* InfoPlist.strings in Resources */,
+				EFF7E26118F389D900340E6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7E26418F389D900340E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E27218F389D900340E6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF7E24718F389D900340E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E2A718F38A8F00340E6F /* CATransform3DViewController.m in Sources */,
+				EFF7E2A418F38A8F00340E6F /* AllowUserInteractionsViewController.m in Sources */,
+				EFF7E2A518F38A8F00340E6F /* BeginFromCurrentStateViewController.m in Sources */,
+				EFF7E2A118F38A8F00340E6F /* PixelForPixelViewController.m in Sources */,
+				EFF7E29F18F38A8F00340E6F /* BlockToPointViewController.m in Sources */,
+				EFF7E25F18F389D900340E6F /* AppDelegate.m in Sources */,
+				EFF7E25B18F389D900340E6F /* main.m in Sources */,
+				EFF7E2AC18F38A8F00340E6F /* ExplodingViewController.m in Sources */,
+				EFF7E29E18F38A8F00340E6F /* NoAnimationViewController.m in Sources */,
+				EFF7E2A818F38A8F00340E6F /* KeyframeViewController.m in Sources */,
+				EFF7E29D18F38A8F00340E6F /* ListViewController.m in Sources */,
+				EFF7E2A618F38A8F00340E6F /* CurvesViewController.m in Sources */,
+				EFF7E2AB18F38A8F00340E6F /* CoreAnimationPathViewController.m in Sources */,
+				EFF7E2A318F38A8F00340E6F /* EasyTransitionsViewController.m in Sources */,
+				EFF7E2AA18F38A8F00340E6F /* TonsOfAnimationsViewController.m in Sources */,
+				EFF7E2A218F38A8F00340E6F /* CGAffineTransformViewController.m in Sources */,
+				EFF7E2A918F38A8F00340E6F /* SpringsViewController.m in Sources */,
+				EFF7E2A018F38A8F00340E6F /* BlockToTouchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7E26218F389D900340E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7E27418F389D900340E6F /* UIView_AnimationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF7E26C18F389D900340E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF7E24A18F389D900340E6F /* UIView Animations */;
+			targetProxy = EFF7E26B18F389D900340E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFF7E25718F389D900340E6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF7E25818F389D900340E6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFF7E27018F389D900340E6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF7E27118F389D900340E6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF7E27518F389D900340E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF7E27618F389D900340E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF7E27818F389D900340E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView Animations/UIView Animations-Prefix.pch";
+				INFOPLIST_FILE = "UIView Animations/UIView Animations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFF7E27918F389D900340E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView Animations/UIView Animations-Prefix.pch";
+				INFOPLIST_FILE = "UIView Animations/UIView Animations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFF7E27B18F389D900340E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView Animations.app/UIView Animations";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView Animations/UIView Animations-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIView AnimationsTests/UIView AnimationsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFF7E27C18F389D900340E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView Animations.app/UIView Animations";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView Animations/UIView Animations-Prefix.pch";
+				INFOPLIST_FILE = "UIView AnimationsTests/UIView AnimationsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF7E24618F389D900340E6F /* Build configuration list for PBXProject "UIView Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7E27518F389D900340E6F /* Debug */,
+				EFF7E27618F389D900340E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF7E27718F389D900340E6F /* Build configuration list for PBXNativeTarget "UIView Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7E27818F389D900340E6F /* Debug */,
+				EFF7E27918F389D900340E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFF7E27A18F389D900340E6F /* Build configuration list for PBXNativeTarget "UIView AnimationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7E27B18F389D900340E6F /* Debug */,
+				EFF7E27C18F389D900340E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF7E24318F389D900340E6F /* Project object */;
+}
